@@ -4,6 +4,8 @@ y = int(input("Pozycja y: "))
 pozycja = "Żadna"
 
 #sprzawdzic wartosci graniczne
+# TODO można było napisać to w ten sposób, aby elify wykluczały sobie rogi
+# TODO do zrobienia dla niekwadratowej planszy
 
 if x > krawedz or y > krawedz:
     print("poza planszą")
