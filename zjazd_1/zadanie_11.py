@@ -20,9 +20,9 @@ elif x < 0.1 * krawedz and y > 0.1 * krawedz and y < 0.9 * krawedz:
     pozycja = "lk"
 elif x > 0.9 * krawedz and y > 0.1 * krawedz and y < 0.9 * krawedz:
     pozycja = "pk"
-elif x > 0.1 * krawedz and x < 0.9 * krawedz and y > 0.1 * krawedz:
+elif x > 0.1 * krawedz and x < 0.9 * krawedz and y > 0.9 * krawedz:
     pozycja = "gk"
-elif x > 0.1 * krawedz and x < 0.9 * krawedz and y < 0.9 * krawedz:
+elif x > 0.1 * krawedz and x < 0.9 * krawedz and y < 0.1 * krawedz:
     pozycja = "dk"
 else:
     pozycja = "centrum"
