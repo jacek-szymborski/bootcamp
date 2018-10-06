@@ -8,8 +8,8 @@ pozycja = "Żadna"
 # TODO do zrobienia dla niekwadratowej planszy
 
 if x > krawedz or y > krawedz:
-    print("poza planszą")
-    raise ValueError("Za duża wartość!")
+    print("poza plansza")
+    raise ValueError("Za duza wartosc")
 elif x <= 0.1 * krawedz and y >= 0.9 * krawedz:
     pozycja = "lgr"
 elif x >= 0.9 * krawedz and y >= 0.9 * krawedz:
