@@ -3,7 +3,7 @@ x = int(input("Pozycja x: "))
 y = int(input("Pozycja y: "))
 pozycja = "Żadna"
 
-#sprzawdzic wartosci graniczne
+# sprzawdzic wartosci graniczne
 # TODO można było napisać to w ten sposób, aby elify wykluczały sobie rogi
 # TODO do zrobienia dla niekwadratowej planszy
 
