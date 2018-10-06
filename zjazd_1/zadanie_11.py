@@ -1,3 +1,4 @@
+# coding: utf8
 krawedz = int(input("Podaj dlugosc krawedzi kwadratowej planszy: "))
 x = int(input("Pozycja x: "))
 y = int(input("Pozycja y: "))
