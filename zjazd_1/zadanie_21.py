@@ -10,10 +10,9 @@ for i in indeksy:
         imin = i
 
 if imin is not None and imax is not None:
-temp = liczby[imin]
-liczby[imin] = liczby[imax]
-liczby[imax] = temp
-
+    temp = liczby[imin]
+    liczby[imin] = liczby[imax]
+    liczby[imax] = temp
 
 print(liczby)
 
