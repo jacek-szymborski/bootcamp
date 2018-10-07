@@ -12,7 +12,7 @@ while True:
     if lmax is None or liczba > lmax:
         lmax = liczba
 
-if not lmax or not lmin: #jeśli nie jest ustawiona żadna wartość lmin albo lmax
+if not lmax or not lmin: #jeśli nie jest ustawiona żadna wartość lmin albo lmax, jeśli jest none to pętla dostaje false
     print("brak danych")
 else:
     print(lmin)
