@@ -30,6 +30,11 @@ def test_vector_lower_than():
     assert not v1 < v2
     assert v2 < v1
 
+def test_vector_multiplication():
+    vector = Vector(1, 2)
+    result = vector * 2
+    assert result.x == 2
+    assert result.y == 4
 
 class Vector:
 
@@ -53,7 +58,7 @@ class Vector:
         return self.lenght() < other.lenght()
 
     def __mul__(self, other):
-        pass
+        return Vector(self.x * other, self.y * other)
 
     def lenght(self):
         return (self.x**2 + self.y**2)**0.5
